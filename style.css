@@ -4,16 +4,22 @@ body{
     margin: 10px;
 }
 
-.wrapper h2{
+.wrapper{
+    padding: 10px;
+    background-color: teal;
+    border-radius: 5px;
+}
+
+h2{
     margin-top: 50px;
     text-align: center;
-    color: rgba(239, 242, 245, 0.849);
+    color: rgba(3, 3, 3, 0.849);
     font-size: 2rem;
 }
 
 h4{
     text-align: center;
-    color: rgba(239, 242, 245, 0.849);
+    color: rgba(6, 9, 12, 0.849);
     font-size: 25px;
 
 }
@@ -36,17 +42,16 @@ h4{
 }
 
 
-
 .dob{
     right: 10px;
-    width: 30px;
+    width: 110px;
     border-radius: 5px;
     padding: 1rem;
 }
 
   button {
     width: 100px;
-    background-color: black;
+    background-color: rgb(41, 180, 214);
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -56,9 +61,9 @@ h4{
     border-radius: 5px;
   }
 
-.input-box[tel]{
-    width: 400px;
-    border-radius: 5px;
-    text-transform: uppercase;
-    padding: 1rem;
-}
+
+  .input-box select{
+      width: 220px;
+      height: 45px;
+      border-radius: 5px;
+  }
